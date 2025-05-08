@@ -86,6 +86,7 @@
             // btn0
             // 
             this.btn0.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btn0.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn0.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn0.Font = new System.Drawing.Font("Kristen ITC", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -100,6 +101,7 @@
             // btnEqual
             // 
             this.btnEqual.BackColor = System.Drawing.Color.Pink;
+            this.btnEqual.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnEqual.FlatAppearance.BorderColor = System.Drawing.Color.PaleVioletRed;
             this.btnEqual.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEqual.Font = new System.Drawing.Font("Kristen ITC", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -114,6 +116,7 @@
             // btnPoint
             // 
             this.btnPoint.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btnPoint.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnPoint.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnPoint.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPoint.Font = new System.Drawing.Font("Kristen ITC", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -137,6 +140,7 @@
             // btn1
             // 
             this.btn1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btn1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn1.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn1.Font = new System.Drawing.Font("Kristen ITC", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -151,6 +155,7 @@
             // btn2
             // 
             this.btn2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btn2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn2.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn2.Font = new System.Drawing.Font("Kristen ITC", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -165,6 +170,7 @@
             // btn3
             // 
             this.btn3.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btn3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn3.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn3.Font = new System.Drawing.Font("Kristen ITC", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -179,6 +185,7 @@
             // btnAdd
             // 
             this.btnAdd.BackColor = System.Drawing.Color.Pink;
+            this.btnAdd.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAdd.FlatAppearance.BorderColor = System.Drawing.Color.PaleVioletRed;
             this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAdd.Font = new System.Drawing.Font("Kristen ITC", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -193,6 +200,7 @@
             // btn4
             // 
             this.btn4.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btn4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn4.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn4.Font = new System.Drawing.Font("Kristen ITC", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -207,6 +215,7 @@
             // btn5
             // 
             this.btn5.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btn5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn5.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn5.Font = new System.Drawing.Font("Kristen ITC", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -221,6 +230,7 @@
             // btn6
             // 
             this.btn6.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btn6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn6.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn6.Font = new System.Drawing.Font("Kristen ITC", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -235,6 +245,7 @@
             // btnMinus
             // 
             this.btnMinus.BackColor = System.Drawing.Color.Pink;
+            this.btnMinus.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMinus.FlatAppearance.BorderColor = System.Drawing.Color.PaleVioletRed;
             this.btnMinus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMinus.Font = new System.Drawing.Font("Kristen ITC", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -249,6 +260,7 @@
             // btn7
             // 
             this.btn7.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btn7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn7.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn7.Font = new System.Drawing.Font("Kristen ITC", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -263,6 +275,7 @@
             // btn8
             // 
             this.btn8.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btn8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn8.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn8.Font = new System.Drawing.Font("Kristen ITC", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -277,6 +290,7 @@
             // btn9
             // 
             this.btn9.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btn9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn9.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn9.Font = new System.Drawing.Font("Kristen ITC", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -291,6 +305,7 @@
             // btnDivide
             // 
             this.btnDivide.BackColor = System.Drawing.Color.Pink;
+            this.btnDivide.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnDivide.FlatAppearance.BorderColor = System.Drawing.Color.PaleVioletRed;
             this.btnDivide.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDivide.Font = new System.Drawing.Font("Kristen ITC", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -305,6 +320,7 @@
             // btnMultiply
             // 
             this.btnMultiply.BackColor = System.Drawing.Color.Pink;
+            this.btnMultiply.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMultiply.FlatAppearance.BorderColor = System.Drawing.Color.PaleVioletRed;
             this.btnMultiply.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMultiply.Font = new System.Drawing.Font("Kristen ITC", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -319,6 +335,7 @@
             // btnMod
             // 
             this.btnMod.BackColor = System.Drawing.Color.Pink;
+            this.btnMod.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMod.FlatAppearance.BorderColor = System.Drawing.Color.PaleVioletRed;
             this.btnMod.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMod.Font = new System.Drawing.Font("Kristen ITC", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -333,6 +350,7 @@
             // btnCE
             // 
             this.btnCE.BackColor = System.Drawing.Color.Bisque;
+            this.btnCE.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCE.FlatAppearance.BorderColor = System.Drawing.Color.LightSalmon;
             this.btnCE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCE.Font = new System.Drawing.Font("Kristen ITC", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -347,6 +365,7 @@
             // btnClr
             // 
             this.btnClr.BackColor = System.Drawing.Color.Bisque;
+            this.btnClr.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnClr.FlatAppearance.BorderColor = System.Drawing.Color.LightSalmon;
             this.btnClr.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClr.Font = new System.Drawing.Font("Kristen ITC", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -361,6 +380,7 @@
             // 
             this.txtInput.BackColor = System.Drawing.Color.White;
             this.txtInput.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtInput.Enabled = false;
             this.txtInput.Font = new System.Drawing.Font("Kristen ITC", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtInput.ForeColor = System.Drawing.Color.Black;
             this.txtInput.Location = new System.Drawing.Point(23, 41);

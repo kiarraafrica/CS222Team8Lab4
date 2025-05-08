@@ -52,7 +52,9 @@ namespace CalculatorLab4
                     txtInput.Text = string.Empty;
                     return;
                 }
-                txtInput.Text = evaluatedResult.ToString();
+
+                // Format the result to always show decimals
+                txtInput.Text = evaluatedResult.ToString("G"); // "G" ensures significant digits are preserved
             }
             catch (System.Data.SyntaxErrorException)
             {
