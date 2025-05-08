@@ -375,6 +375,7 @@
             this.btnClr.TabIndex = 1;
             this.btnClr.Text = "clr";
             this.btnClr.UseVisualStyleBackColor = false;
+            this.btnClr.Click += new System.EventHandler(this.Clear);
             // 
             // txtInput
             // 
