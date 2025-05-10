@@ -413,7 +413,7 @@
             this.btnDivide.Name = "btnDivide";
             this.btnDivide.Size = new System.Drawing.Size(92, 92);
             this.btnDivide.TabIndex = 5;
-            this.btnDivide.Text = "/";
+            this.btnDivide.Text = "÷";
             this.btnDivide.UseVisualStyleBackColor = false;
             this.btnDivide.Click += new System.EventHandler(this.AppendToCalculationString);
             // 
@@ -431,7 +431,7 @@
             this.btnMultiply.Name = "btnMultiply";
             this.btnMultiply.Size = new System.Drawing.Size(92, 92);
             this.btnMultiply.TabIndex = 4;
-            this.btnMultiply.Text = "*";
+            this.btnMultiply.Text = "×";
             this.btnMultiply.UseVisualStyleBackColor = false;
             this.btnMultiply.Click += new System.EventHandler(this.AppendToCalculationString);
             // 

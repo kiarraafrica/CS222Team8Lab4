@@ -7,9 +7,7 @@ namespace CalculatorLab4
 {
     public partial class Form1 : Form
     {
-        // Tracks if the last action was an evaluation (= pressed)
         private bool isResultDisplayed = false;
-        // Stores the last result for chaining operations
         private string lastResult = "0";
 
         public Form1()
@@ -25,7 +23,6 @@ namespace CalculatorLab4
             string validKeys = "0123456789.+-*/%";
             if (validKeys.Contains(e.KeyChar))
             {
-                // Simulate button click for valid keys
                 Button btn = new Button { Text = e.KeyChar.ToString() };
                 AppendToCalculationString(btn, EventArgs.Empty);
                 e.Handled = true;
@@ -56,7 +53,6 @@ namespace CalculatorLab4
             }
         }
 
-        // Handles all number/operator/decimal button clicks
         private void AppendToCalculationString(object sender, EventArgs e)
         {
             Button btn = sender as Button;
@@ -65,24 +61,20 @@ namespace CalculatorLab4
             string input = btn.Text;
             string operators = "+-*/%";
 
-            // If result is displayed, handle next input appropriately
             if (isResultDisplayed)
             {
                 isResultDisplayed = false;
                 if (operators.Contains(input))
                 {
-                    // Start new operation with result and operator
                     txtInput.Text = lastResult + input;
                 }
                 else
                 {
-                    // Start new calculation
                     txtInput.Text = (input == ".") ? "0." : input;
                 }
                 return;
             }
 
-            // Prevent multiple decimals in a number
             if (input == ".")
             {
                 string[] parts = txtInput.Text.Split(operators.ToCharArray());
@@ -91,18 +83,15 @@ namespace CalculatorLab4
                     return;
             }
 
-            // Prevent leading zeros
             if (txtInput.Text == "0" && input != ".")
             {
                 txtInput.Text = input;
                 return;
             }
 
-            // Prevent consecutive operators
             if (operators.Contains(input) && txtInput.Text.Length > 0 &&
                 operators.Contains(txtInput.Text[txtInput.Text.Length - 1].ToString()))
             {
-                // Replace last operator with new one
                 txtInput.Text = txtInput.Text.Substring(0, txtInput.Text.Length - 1) + input;
                 return;
             }
@@ -110,13 +99,11 @@ namespace CalculatorLab4
             txtInput.Text += input;
         }
 
-        // Clears the entire input
         private void Clear(object sender, EventArgs e)
         {
             txtInput.Text = "0";
         }
 
-        // Clears the last character (backspace)
         private void ClearEntry(object sender, EventArgs e)
         {
             if (!string.IsNullOrEmpty(txtInput.Text) && txtInput.Text.Length > 1)
@@ -125,10 +112,8 @@ namespace CalculatorLab4
                 txtInput.Text = "0";
         }
 
-        // Evaluates the current expression
         private void EvaluateCalculation(object sender, EventArgs e)
         {
-            // Clear history if = is pressed twice in a row
             if (isResultDisplayed)
                 txtHistory.Clear();
 
@@ -141,10 +126,8 @@ namespace CalculatorLab4
 
             try
             {
-                // Replace '×' and '÷' with '*' and '/' for evaluation
                 expression = expression.Replace("×", "*").Replace("÷", "/");
 
-                // Prevent evaluation if expression ends with an operator
                 string operators = "+-*/%";
                 if (operators.Contains(expression[expression.Length - 1].ToString()))
                 {
