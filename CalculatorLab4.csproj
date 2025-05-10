@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +79,39 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\but3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\curver-rectangle-btn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\curver-rectangle-btn1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blck-btn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\white-btn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red-btn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red-btn1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red-btn2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backspace-arrow_icon-icons.com_72865.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bckspace-btn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\history-clock-button_icon-icons.com_72701.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
