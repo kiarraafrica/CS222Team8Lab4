@@ -18,6 +18,8 @@ A clean and functional Basic Calculator built using C# and Windows Forms in Visu
 
 ## 📷 Screenshot
 
+![Output 1](sample_output/sample1.png)    ![Output 2](sample_output/sample2.png)
+
 ## 🧰 Technologies Used
 * Language: C#
 
