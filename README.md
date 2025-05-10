@@ -51,14 +51,19 @@ To run or modify this calculator on your machine:
 ## 📁 Project Structure
 
     CalculatorLab4/
-    ├── Resorces                     # Contains the image for buttons
-    ├── sample_outpu                 # Contains the image for screenshot in Readme file
-    ├── CalculatorLab4.sln           # Solution file
+    ├── Properties                   # Contains project and assembly properties
+    ├── Resorces                     # Contains project and assembly properties
+    ├── sample_outpu                 # Sample output files
+    ├── .gitignore                   # Git ignore rules
+    ├── App.config                   # Application configuration settings
     ├── CalculatorLab4.csproj        # Project configuration file
-    ├── Form1.cs                     # Main logic and event handling
-    ├── Form1.Designer.cs            # GUI component declarations
-    ├── Form1.resx                   # Resource file for UI assets
-    └── Program.cs                   # Entry point of the application
+    ├── CalculatorLab4.sln           # Solution file
+    ├── Form1.Designer.cs            # Designer-generated UI code for the main form
+    ├── Form1.cs                     # Logic and event handling for the main form
+    ├── Form1.resx                   # Resources
+    ├── Program.cs                   # Application entry point
+    └── README.md                    # Project documentation
+
 ## 📝 Notes
 The calculator uses Windows Forms for its graphical interface, making it a great starting project for learning desktop application development in C#.
 
