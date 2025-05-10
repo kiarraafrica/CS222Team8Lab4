@@ -75,7 +75,7 @@
             this.txtHistory.Multiline = true;
             this.txtHistory.Name = "txtHistory";
             this.txtHistory.ReadOnly = true;
-            this.txtHistory.Size = new System.Drawing.Size(382, 70);
+            this.txtHistory.Size = new System.Drawing.Size(371, 70);
             this.txtHistory.TabIndex = 21;
             this.txtHistory.TabStop = false;
             this.txtHistory.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -90,7 +90,7 @@
             this.txtInput.Location = new System.Drawing.Point(32, 103);
             this.txtInput.Name = "txtInput";
             this.txtInput.ReadOnly = true;
-            this.txtInput.Size = new System.Drawing.Size(382, 66);
+            this.txtInput.Size = new System.Drawing.Size(371, 66);
             this.txtInput.TabIndex = 0;
             this.txtInput.TabStop = false;
             this.txtInput.Text = "0";
