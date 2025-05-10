@@ -145,7 +145,7 @@ namespace CalculatorLab4
 
                 if (double.IsInfinity(result) || double.IsNaN(result))
                 {
-                    MessageBox.Show("Expression was evaluated to be undefined.", "Evaluation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Expression is undefined.", "Evaluation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     txtInput.Text = "0";
                     return;
                 }
@@ -157,7 +157,7 @@ namespace CalculatorLab4
             }
             catch (SyntaxErrorException)
             {
-                MessageBox.Show("Expression was not valid.", "Syntax Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Expression was invalid.", "Syntax Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 txtInput.Text = "0";
             }
             catch (Exception ex)
