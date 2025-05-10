@@ -1,4 +1,4 @@
-## 🧮 Basic Calculator
+# 🧮 Basic Calculator
 A clean and functional Basic Calculator built using C# and Windows Forms in Visual Studio 2022. This application supports standard arithmetic operations with a custom-styled graphical interface designed for simplicity and ease of use.
 
 
@@ -25,7 +25,7 @@ A clean and functional Basic Calculator built using C# and Windows Forms in Visu
 
 * UI: Custom-designed buttons and layout for a modern calculator feel
 
-# 🖥️ Setup Instructions
+## 🖥️ Setup Instructions
 To run or modify this calculator on your machine:
 
 **Prerequisites:**
