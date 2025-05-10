@@ -59,4 +59,14 @@ The calculator uses Windows Forms for its graphical interface, making it a great
 
 The buttons are styled with shadows and distinct colors to improve user experience.
 
+## 🧑‍💻 Team Members
+| Name  | E-mail             |
+|------------|-------------------------|
+| Africa, Kiarra Francesca Gabrielle S. | 23-01292@g.bastate-u.edu.ph |
+| Aguzar, Joel Lazernie A. | 23-00562@g.batstate-u.edu.ph |
+| Garcia, Kriztel C.| 23-03726@g.batstate-u.edu.ph |
+| Lacerna, James Louie | 23-05991@g.batstate-u.edu.ph |
 
+## 🤝 Acknowledgement
+
+We, the members of **GROUP 8**, would like to sincerely thank **Ms. Fatima Marie P. Agdon**, our Advanced Object-Oriented Programming instructor, for her guidance, support, and encouragement throughout this project. Her insights and clear explanations helped us greatly in applying advanced programming concepts effectively.
