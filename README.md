@@ -1,8 +1,8 @@
-# 🧮 Basic Calculator
+## 🧮 Basic Calculator
 A clean and functional Basic Calculator built using C# and Windows Forms in Visual Studio 2022. This application supports standard arithmetic operations with a custom-styled graphical interface designed for simplicity and ease of use.
 
 
-# ✨ Features
+## ✨ Features
 
 * User-friendly Interface – Custom circular buttons with shadows and color themes.
 
@@ -16,7 +16,7 @@ A clean and functional Basic Calculator built using C# and Windows Forms in Visu
 
 * Live Expression Display – Shows current expression before calculating the result.
 
-# 🧰 Technologies Used
+## 🧰 Technologies Used
 * Language: C#
 
 * Framework: .NET Framework (Windows Forms)
@@ -44,7 +44,7 @@ To run or modify this calculator on your machine:
 
 4. Run the App: Press F5 or click the Start button.
 
-# 📁 Project Structure
+## 📁 Project Structure
 
     CalculatorLab4/
     ├── CalculatorLab4.sln           # Solution file
@@ -54,7 +54,7 @@ To run or modify this calculator on your machine:
     ├── Form1.resx                   # Resource file for UI assets
     ├── Program.cs                   # Entry point of the application
     └── gui/                         # (Optional) Folder for image or design assets
-# 📝 Notes
+## 📝 Notes
 The calculator uses Windows Forms for its graphical interface, making it a great starting project for learning desktop application development in C#.
 
 The buttons are styled with shadows and distinct colors to improve user experience.
