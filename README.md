@@ -16,6 +16,8 @@ A clean and functional Basic Calculator built using C# and Windows Forms in Visu
 
 * Live Expression Display – Shows current expression before calculating the result.
 
+## 📷 Screenshot
+
 ## 🧰 Technologies Used
 * Language: C#
 
